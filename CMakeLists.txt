@@ -35,7 +35,6 @@ set(PREBUILT_MODULE_PATH ${CMAKE_BINARY_DIR}/modules)
 # endfunction()
 
 function(add_module name)
-    file(MAKE_DIRECTORY ${PREBUILT_MODULE_PATH})
     add_custom_target(${name}.pcm
             COMMAND
                 ${CMAKE_CXX_COMPILER}
@@ -47,8 +46,8 @@ function(add_module name)
                 ${CMAKE_CURRENT_SOURCE_DIR}/${ARGN}
                 -Xclang -emit-module-interface
                 -o ${PREBUILT_MODULE_PATH}/${name}.pcm
-
             )
+            add_dependencies(${PROJECT_NAME} ${name}.pcm)
 endfunction()
 
 add_compile_options(-fmodules)
@@ -57,9 +56,29 @@ add_compile_options(-fbuiltin-module-map)
 add_compile_options(-fimplicit-module-maps)
 add_compile_options(-fprebuilt-module-path=${PREBUILT_MODULE_PATH})
 
-add_module(helloworld helloworld.cpp)
+file(GLOB MODULES modules/*.cpp)
+
+file(MAKE_DIRECTORY ${PREBUILT_MODULE_PATH})
+# add_module(helloworld ${MODULES})
+# add_executable(main
+#         main.cpp
+#         ${MODULES}
+#         )
+# add_dependencies(main "modules/helloworld.pcm")
 add_executable(main
         main.cpp
-        helloworld.cpp
-        )
-add_dependencies(main helloworld.pcm)
+        ${MODULES}
+)
+        # add_module(helloworld modules/helloworld.cpp)
+
+foreach(modfile ${MODULES})
+    get_filename_component(barename ${modfile} NAME)
+    get_filename_component (barename_we ${barename} NAME_WE)
+    add_module(${barename_we} modules/${barename})
+endforeach(modfile ${MODULES})
+
+
+
+
+
+# add_dependencies(main helloworld.pcm)

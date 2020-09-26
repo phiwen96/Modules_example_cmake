@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/philip/Documents/c++/Modules_example_cmake/main.cpp
+iostream
+-
+
+/home/philip/Documents/c++/Modules_example_cmake/modules/helloworld.cpp
+
+/home/philip/Documents/c++/Modules_example_cmake/modules/speech.cpp
+
