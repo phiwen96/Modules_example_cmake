@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.16)
+cmake_minimum_required(VERSION 3.20.2)
 project(main)
 
 # SET (CMAKE_CXX_COMPILER             "/usr/bin/clang++")
