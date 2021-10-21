@@ -1,10 +1,12 @@
-#include <iostream>
-using namespace std;
-
-import helloworld;  // import declaration
 import speech;
 
-int main() {
-    cout << hello() << endl;
-    cout << make_speech() << endl;
+
+
+int main (int, char const**)
+{
+    
+    make_speech ();
+    
+    
+    return 0;
 }

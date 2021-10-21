@@ -1,0 +1,5 @@
+/Users/philipwenkel/Github/Modules_example_cmake/xbuild/CMakeFiles/speech.pcm.dir
+/Users/philipwenkel/Github/Modules_example_cmake/xbuild/CMakeFiles/helloworld.pcm.dir
+/Users/philipwenkel/Github/Modules_example_cmake/xbuild/CMakeFiles/main.dir
+/Users/philipwenkel/Github/Modules_example_cmake/xbuild/CMakeFiles/ALL_BUILD.dir
+/Users/philipwenkel/Github/Modules_example_cmake/xbuild/CMakeFiles/ZERO_CHECK.dir
