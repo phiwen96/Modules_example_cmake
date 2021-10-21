@@ -1,10 +1,13 @@
-main: main.o A.pcm B.pcm
-	clang++ -std=c++2a -fmodules -stdlib=libc++ main.o A.pcm B.pcm -o main
+main: main.o A.pcm B.pcm D.pcm
+	clang++ -std=c++2a -stdlib=libc++ -fmodules main.o A.pcm B.pcm D.pcm -o main
 
 main.o: main.cpp
 	clang++ -std=c++2a -stdlib=libc++ -fmodules -fbuiltin-module-map -fimplicit-modules -fimplicit-module-maps -fprebuilt-module-path=. -c main.cpp -o main.o
 
-B.pcm: B.cpp A.pcm
+D.pcm: D.cpp
+	clang++ -std=c++2a -stdlib=libc++ -fmodules -fbuiltin-module-map -fimplicit-modules -fimplicit-module-maps -fmodule-file=B.pcm -c D.cpp -Xclang -emit-module-interface -o D.pcm
+
+B.pcm: A.pcm B.cpp
 	clang++ -std=c++2a -stdlib=libc++ -fmodules -fbuiltin-module-map -fimplicit-modules -fimplicit-module-maps -fmodule-file=A.pcm -c B.cpp -Xclang -emit-module-interface -o B.pcm
 
 A.pcm: A.cpp 
