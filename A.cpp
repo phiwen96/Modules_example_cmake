@@ -1,7 +1,7 @@
 // module;
 
 export module A;
-// import <iostream>;
+import <iostream>;
 
 
 // import B;
