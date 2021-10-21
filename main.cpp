@@ -1,12 +1,13 @@
+import <iostream>;
+
+//import ph;
+//import yo;
 import ph;
 
-
-
-int main (int, char const**)
+int main()
 {
-    
-    make_speech ();
-    
-    
-    return 0;
+    std::cout << "Hello, World!\n";
 }
+
+
+// clang++ -Wall -std=c++2a -fmodules -c ph.cpp -Xclang -emit-module-interface -o ph.pcm && clang++ -Wall -std=c++2a -fimplicit-modules -fimplicit-module-maps -fprebuilt-module-path=. main.cpp ph.pcm -o main && ./main

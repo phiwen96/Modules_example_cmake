@@ -7,21 +7,34 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		63635EA39DC0475486196472 /* speech.pcm */ = {
+		18024C6880D04D23B1381134 /* module.pcm */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = FC43489A69C54E64ABD97B4E /* Build configuration list for PBXAggregateTarget "speech.pcm" */;
+			buildConfigurationList = E856FEEDBF8F41D390A222C6 /* Build configuration list for PBXAggregateTarget "module.pcm" */;
 			buildPhases = (
-				0EE2EFEECF1289F56865B681 /* Generate CMakeFiles/speech.pcm */,
+				CD66DA2EE2610EA3775DA6C4 /* Generate CMakeFiles/module.pcm */,
 			);
 			dependencies = (
-				0A42A2AC3CCB4C569CB6D693 /* PBXTargetDependency */,
+				8EF7902813CC47ACB1DF4BCD /* PBXTargetDependency */,
 			);
-			name = speech.pcm;
-			productName = speech.pcm;
+			name = module.pcm;
+			productName = module.pcm;
 		};
-		7F3AA283D08D4DBBA2477B8A /* ZERO_CHECK */ = {
+		1CD5EC48BA204F17AEEF409D /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 0A708A69902644209CF3721F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = F5B96F6ED26F4CA1B623A199 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				824D5529A8D91F700A55CCA9 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				55FCFEF57806492182FB1AC6 /* PBXTargetDependency */,
+				66B22793DF274970ADC10693 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		56E9C806B31E40C7BF671E26 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 18AB2C422DDF49379C24130E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				4CE3655BE9907AE2760F5D71 /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -30,56 +43,30 @@
 			name = ZERO_CHECK;
 			productName = ZERO_CHECK;
 		};
-		AA4846FC6FCA4E96B969FCB8 /* ALL_BUILD */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 74FCFE9BB0BC4DA49ABD3900 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
-			buildPhases = (
-				824D5529A8D91F700A55CCA9 /* Generate CMakeFiles/ALL_BUILD */,
-			);
-			dependencies = (
-				42968FA493DA4081BFD16AAB /* PBXTargetDependency */,
-				88A0826490BF4091BFE9C851 /* PBXTargetDependency */,
-			);
-			name = ALL_BUILD;
-			productName = ALL_BUILD;
-		};
-		C09CF767E95A4E409476FD13 /* helloworld.pcm */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 953151B758F14498B0EB4901 /* Build configuration list for PBXAggregateTarget "helloworld.pcm" */;
-			buildPhases = (
-				9596959FA3FBE796723FEE9F /* Generate CMakeFiles/helloworld.pcm */,
-			);
-			dependencies = (
-				E4E46152D2194F5EA8E520A5 /* PBXTargetDependency */,
-			);
-			name = helloworld.pcm;
-			productName = helloworld.pcm;
-		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		134B1B7D66CC48B08418C260 /* /Users/philipwenkel/Github/Modules_example_cmake/main.cpp */ = {isa = PBXBuildFile; fileRef = E68CA555F5F345D9BE3D595A /* /Users/philipwenkel/Github/Modules_example_cmake/main.cpp */; };
-		3F5FA0C786AF494DA4197B34 /* /Users/philipwenkel/Github/Modules_example_cmake/modules/helloworld.cpp */ = {isa = PBXBuildFile; fileRef = 6A19064044CD4D7691F80804 /* /Users/philipwenkel/Github/Modules_example_cmake/modules/helloworld.cpp */; };
-		994E428CFD6C4261BD59BCBA /* /Users/philipwenkel/Github/Modules_example_cmake/modules/speech.cpp */ = {isa = PBXBuildFile; fileRef = F77F792BD05A4D22A86283D3 /* /Users/philipwenkel/Github/Modules_example_cmake/modules/speech.cpp */; };
-		F0BD6540C94948B88569DA3E /* /Users/philipwenkel/Github/Modules_example_cmake/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A4F431E418E8460E8E76778C /* /Users/philipwenkel/Github/Modules_example_cmake/CMakeLists.txt */; };
+		1EBDF25474C74919988F8C13 /* /Users/philipwenkel/Github/Modules_example_cmake/module.cpp */ = {isa = PBXBuildFile; fileRef = 9E5A42C170B84654994FFC78 /* /Users/philipwenkel/Github/Modules_example_cmake/module.cpp */; };
+		57A6F610867B4BE59CBAB215 /* /Users/philipwenkel/Github/Modules_example_cmake/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 6D0C31E353EA48CBB7FD3B19 /* /Users/philipwenkel/Github/Modules_example_cmake/CMakeLists.txt */; };
+		A8E21544E1F0452DA1C4E41C /* /Users/philipwenkel/Github/Modules_example_cmake/main.cpp */ = {isa = PBXBuildFile; fileRef = 98EF58497B6649DF97583EFB /* /Users/philipwenkel/Github/Modules_example_cmake/main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		37A2A416293342758BCE9BCE /* Debug */ = {
+		2ABE98BFEA5945B584A9FF7C /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Debug;
 		};
-		45742A3010A54005865558A3 /* Kuk */ = {
+		6FDA68A960544BB09E752855 /* Kuk */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Kuk;
 		};
-		7D69A8CC5E7A48FDB24A83D3 /* Release */ = {
+		9D13F06580CA4F9492A75453 /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -89,70 +76,54 @@
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		42F8F5B962B0459EB614AD97 /* PBXContainerItemProxy */ = {
+		012B82986C57436C81C3BFD3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 971F48B899DD4AFE8E8931D2 /* Project object */;
+			containerPortal = DED1B58FB6764E08B9E35FB5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4051EF7F55CA4C54919984DA;
+			remoteGlobalIDString = C77393914A884C4F9A6BCECD;
 			remoteInfo = main;
 		};
-		54683E87FD8946AEB65F67BB /* PBXContainerItemProxy */ = {
+		21D5825B8F114633AEFC05E9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 971F48B899DD4AFE8E8931D2 /* Project object */;
+			containerPortal = DED1B58FB6764E08B9E35FB5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7F3AA283D08D4DBBA2477B8A;
+			remoteGlobalIDString = 18024C6880D04D23B1381134;
+			remoteInfo = module.pcm;
+		};
+		4CA179C4D0A24AE197CD2D93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DED1B58FB6764E08B9E35FB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56E9C806B31E40C7BF671E26;
 			remoteInfo = ZERO_CHECK;
 		};
-		74C85EE2A0BF42B8BA68C4EC /* PBXContainerItemProxy */ = {
+		5824F9559F8749A68ADA4656 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 971F48B899DD4AFE8E8931D2 /* Project object */;
+			containerPortal = DED1B58FB6764E08B9E35FB5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 63635EA39DC0475486196472;
-			remoteInfo = speech.pcm;
-		};
-		95D7467D73DE4A9A9A1971A1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 971F48B899DD4AFE8E8931D2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7F3AA283D08D4DBBA2477B8A;
+			remoteGlobalIDString = 56E9C806B31E40C7BF671E26;
 			remoteInfo = ZERO_CHECK;
 		};
-		A7603A1452764D7498CE1663 /* PBXContainerItemProxy */ = {
+		9CE8F4995D1F466380444CE9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 971F48B899DD4AFE8E8931D2 /* Project object */;
+			containerPortal = DED1B58FB6764E08B9E35FB5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7F3AA283D08D4DBBA2477B8A;
-			remoteInfo = ZERO_CHECK;
-		};
-		B27FA78D1692448E8ADEAC1C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 971F48B899DD4AFE8E8931D2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C09CF767E95A4E409476FD13;
-			remoteInfo = helloworld.pcm;
-		};
-		E2FA50878E754A308EA06589 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 971F48B899DD4AFE8E8931D2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7F3AA283D08D4DBBA2477B8A;
+			remoteGlobalIDString = 56E9C806B31E40C7BF671E26;
 			remoteInfo = ZERO_CHECK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2E5F866761F4436CB752832F /* /Users/philipwenkel/Github/Modules_example_cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		5A8B75552D7D4733882C9413 /* main */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = main; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A19064044CD4D7691F80804 /* /Users/philipwenkel/Github/Modules_example_cmake/modules/helloworld.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = helloworld.cpp; path = modules/helloworld.cpp; sourceTree = SOURCE_ROOT; };
-		6F67C2689ECA4BF7974F299C /* /Users/philipwenkel/Github/Modules_example_cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		8153D09A10E043D9BCF6B22D /* /Users/philipwenkel/Github/Modules_example_cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		A4F431E418E8460E8E76778C /* /Users/philipwenkel/Github/Modules_example_cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		E68CA555F5F345D9BE3D595A /* /Users/philipwenkel/Github/Modules_example_cmake/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
-		F77F792BD05A4D22A86283D3 /* /Users/philipwenkel/Github/Modules_example_cmake/modules/speech.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = speech.cpp; path = modules/speech.cpp; sourceTree = SOURCE_ROOT; };
+		30D9F9DE06C84B5CB478572A /* /Users/philipwenkel/Github/Modules_example_cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6D0C31E353EA48CBB7FD3B19 /* /Users/philipwenkel/Github/Modules_example_cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		98EF58497B6649DF97583EFB /* /Users/philipwenkel/Github/Modules_example_cmake/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		9E5A42C170B84654994FFC78 /* /Users/philipwenkel/Github/Modules_example_cmake/module.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = module.cpp; path = module.cpp; sourceTree = SOURCE_ROOT; };
+		F4E653DC53764E2DA58FF93A /* /Users/philipwenkel/Github/Modules_example_cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FF8A58FEB7B647DDAB07EF2E /* main */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = main; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B2E2DFEADB934790B990ED77 /* Frameworks */ = {
+		730D3C10579443E581932C2B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -162,214 +133,135 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		11170DA932ED4A8AB45D7940 /* main */ = {
+		0C2226DDFE3F4DB0BFD72E43 /* module.pcm */ = {
 			isa = PBXGroup;
 			children = (
-				E727FFA9F2994E8695AD3AB0 /* Source Files */,
-				A4F431E418E8460E8E76778C /* /Users/philipwenkel/Github/Modules_example_cmake/CMakeLists.txt */,
+				0FBF85D916BE471BBFB72463 /* CMake Rules */,
+				F4E653DC53764E2DA58FF93A /* /Users/philipwenkel/Github/Modules_example_cmake/CMakeLists.txt */,
 			);
-			name = main;
+			name = module.pcm;
 			sourceTree = "<group>";
 		};
-		25BD1FD6B7E84995A47D4C0E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5A8B75552D7D4733882C9413 /* main */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3916819F7B2141F480B2001C /* CMake Rules */ = {
+		0FBF85D916BE471BBFB72463 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		3B253BD98203454F85FA8BAD /* helloworld.pcm */ = {
+		386BB9576FEC4055B948F96E /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				54D46652E0CF4D6B868CBA5D /* CMake Rules */,
-				6F67C2689ECA4BF7974F299C /* /Users/philipwenkel/Github/Modules_example_cmake/CMakeLists.txt */,
+				98EF58497B6649DF97583EFB /* /Users/philipwenkel/Github/Modules_example_cmake/main.cpp */,
+				9E5A42C170B84654994FFC78 /* /Users/philipwenkel/Github/Modules_example_cmake/module.cpp */,
 			);
-			name = helloworld.pcm;
+			name = "Source Files";
 			sourceTree = "<group>";
 		};
-		3C8C4623166C469FA2C6DA5A = {
-			isa = PBXGroup;
-			children = (
-				4B04C93A41564F6AA82DF061 /* speech.pcm */,
-				3B253BD98203454F85FA8BAD /* helloworld.pcm */,
-				11170DA932ED4A8AB45D7940 /* main */,
-				8F9C2AE03B0B42C19DA25127 /* ALL_BUILD */,
-				25BD1FD6B7E84995A47D4C0E /* Products */,
-				B7B8760C4E684365AD465743 /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		4B04C93A41564F6AA82DF061 /* speech.pcm */ = {
-			isa = PBXGroup;
-			children = (
-				3916819F7B2141F480B2001C /* CMake Rules */,
-				8153D09A10E043D9BCF6B22D /* /Users/philipwenkel/Github/Modules_example_cmake/CMakeLists.txt */,
-			);
-			name = speech.pcm;
-			sourceTree = "<group>";
-		};
-		54D46652E0CF4D6B868CBA5D /* CMake Rules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		8F9C2AE03B0B42C19DA25127 /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				D902FB15F4B94472894CB56C /* CMake Rules */,
-				2E5F866761F4436CB752832F /* /Users/philipwenkel/Github/Modules_example_cmake/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		B7B8760C4E684365AD465743 /* Frameworks */ = {
+		42D71EE028614C80A38699BD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D902FB15F4B94472894CB56C /* CMake Rules */ = {
+		7F3671C4840B48C9A639B24C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF8A58FEB7B647DDAB07EF2E /* main */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88F250FE07294D9A9151DA80 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				F8745937440E4F298D854131 /* CMake Rules */,
+				30D9F9DE06C84B5CB478572A /* /Users/philipwenkel/Github/Modules_example_cmake/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		9EBE0DC92B0644B8BD09C9D4 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				386BB9576FEC4055B948F96E /* Source Files */,
+				6D0C31E353EA48CBB7FD3B19 /* /Users/philipwenkel/Github/Modules_example_cmake/CMakeLists.txt */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		F6F70C0CE7214AA298089242 = {
+			isa = PBXGroup;
+			children = (
+				0C2226DDFE3F4DB0BFD72E43 /* module.pcm */,
+				9EBE0DC92B0644B8BD09C9D4 /* main */,
+				88F250FE07294D9A9151DA80 /* ALL_BUILD */,
+				7F3671C4840B48C9A639B24C /* Products */,
+				42D71EE028614C80A38699BD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F8745937440E4F298D854131 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		E727FFA9F2994E8695AD3AB0 /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				E68CA555F5F345D9BE3D595A /* /Users/philipwenkel/Github/Modules_example_cmake/main.cpp */,
-				6A19064044CD4D7691F80804 /* /Users/philipwenkel/Github/Modules_example_cmake/modules/helloworld.cpp */,
-				F77F792BD05A4D22A86283D3 /* /Users/philipwenkel/Github/Modules_example_cmake/modules/speech.cpp */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4051EF7F55CA4C54919984DA /* main */ = {
+		C77393914A884C4F9A6BCECD /* main */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8C04E4FC92544C1F84F89707 /* Build configuration list for PBXNativeTarget "main" */;
+			buildConfigurationList = 6EB18BF3A25D44019BF7E77F /* Build configuration list for PBXNativeTarget "main" */;
 			buildPhases = (
-				CA0827B5FA564D5481541BCE /* Sources */,
-				B2E2DFEADB934790B990ED77 /* Frameworks */,
+				94F7F42510BA4E3E8CDD0A21 /* Sources */,
+				730D3C10579443E581932C2B /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B88C5C1969ED45A8A00937EE /* PBXTargetDependency */,
-				75DF93E17C204E158AD6D51F /* PBXTargetDependency */,
-				0DC024FDFE6844DE82366BD7 /* PBXTargetDependency */,
+				1B1FE190B7854E0398371D82 /* PBXTargetDependency */,
+				D90FBDFE7D514200853A03FF /* PBXTargetDependency */,
 			);
 			name = main;
 			productName = main;
-			productReference = 5A8B75552D7D4733882C9413 /* main */;
+			productReference = FF8A58FEB7B647DDAB07EF2E /* main */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		971F48B899DD4AFE8E8931D2 /* Project object */ = {
+		DED1B58FB6764E08B9E35FB5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1250;
 			};
-			buildConfigurationList = BEFDF9067DF74A958ED2CA24 /* Build configuration list for PBXProject "main" */;
+			buildConfigurationList = 56340807051E4E33908C89F1 /* Build configuration list for PBXProject "main" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				37A2A416293342758BCE9BCE /* Debug */,
-				7D69A8CC5E7A48FDB24A83D3 /* Release */,
-				45742A3010A54005865558A3 /* Kuk */,
+				2ABE98BFEA5945B584A9FF7C /* Debug */,
+				9D13F06580CA4F9492A75453 /* Release */,
+				6FDA68A960544BB09E752855 /* Kuk */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 3C8C4623166C469FA2C6DA5A;
+			mainGroup = F6F70C0CE7214AA298089242;
 			projectDirPath = ../;
 			projectRoot = "";
 			targets = (
-				AA4846FC6FCA4E96B969FCB8 /* ALL_BUILD */,
-				7F3AA283D08D4DBBA2477B8A /* ZERO_CHECK */,
-				C09CF767E95A4E409476FD13 /* helloworld.pcm */,
-				4051EF7F55CA4C54919984DA /* main */,
-				63635EA39DC0475486196472 /* speech.pcm */,
+				1CD5EC48BA204F17AEEF409D /* ALL_BUILD */,
+				56E9C806B31E40C7BF671E26 /* ZERO_CHECK */,
+				C77393914A884C4F9A6BCECD /* main */,
+				18024C6880D04D23B1381134 /* module.pcm */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0CB33C3031D8384DE6C7EBBE = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
-		0EE2EFEECF1289F56865B681 /* Generate CMakeFiles/speech.pcm */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Generate CMakeFiles/speech.pcm";
-			outputPaths = (
-/Users/philipwenkel/Github/Modules_example_cmake/xbuild/CMakeFiles/speech.pcm			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "set -e
-if test \"$CONFIGURATION\" = \"Debug\"; then :
-  cd /Users/philipwenkel/Github/Modules_example_cmake/xbuild
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -std=c++2a -stdlib=libc++ -fmodules -c /Users/philipwenkel/Github/Modules_example_cmake/modules/speech.cpp -Xclang -emit-module-interface -o /Users/philipwenkel/Github/Modules_example_cmake/xbuild/modules/speech.pcm
-fi
-if test \"$CONFIGURATION\" = \"Release\"; then :
-  cd /Users/philipwenkel/Github/Modules_example_cmake/xbuild
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -std=c++2a -stdlib=libc++ -fmodules -c /Users/philipwenkel/Github/Modules_example_cmake/modules/speech.cpp -Xclang -emit-module-interface -o /Users/philipwenkel/Github/Modules_example_cmake/xbuild/modules/speech.pcm
-fi
-if test \"$CONFIGURATION\" = \"Kuk\"; then :
-  cd /Users/philipwenkel/Github/Modules_example_cmake/xbuild
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -std=c++2a -stdlib=libc++ -fmodules -c /Users/philipwenkel/Github/Modules_example_cmake/modules/speech.cpp -Xclang -emit-module-interface -o /Users/philipwenkel/Github/Modules_example_cmake/xbuild/modules/speech.pcm
-fi
-";
-			showEnvVarsInLog = 0;
-		};
-		1C2771C1F2EDEE9745968C53 = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
 		3C0110FC8322DE7E50886E21 = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -443,7 +335,22 @@ fi
 ";
 			showEnvVarsInLog = 0;
 		};
-		9596959FA3FBE796723FEE9F /* Generate CMakeFiles/helloworld.pcm */ = {
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		CD66DA2EE2610EA3775DA6C4 /* Generate CMakeFiles/module.pcm */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -451,28 +358,28 @@ fi
 			);
 			inputPaths = (
 			);
-			name = "Generate CMakeFiles/helloworld.pcm";
+			name = "Generate CMakeFiles/module.pcm";
 			outputPaths = (
-/Users/philipwenkel/Github/Modules_example_cmake/xbuild/CMakeFiles/helloworld.pcm			);
+/Users/philipwenkel/Github/Modules_example_cmake/xbuild/CMakeFiles/module.pcm			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "set -e
 if test \"$CONFIGURATION\" = \"Debug\"; then :
   cd /Users/philipwenkel/Github/Modules_example_cmake/xbuild
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -std=c++2a -stdlib=libc++ -fmodules -c /Users/philipwenkel/Github/Modules_example_cmake/modules/helloworld.cpp -Xclang -emit-module-interface -o /Users/philipwenkel/Github/Modules_example_cmake/xbuild/modules/helloworld.pcm
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -std=c++2a -stdlib=libc++ -fmodules -c /Users/philipwenkel/Github/Modules_example_cmake/modules/module.cpp -Xclang -emit-module-interface -o /Users/philipwenkel/Github/Modules_example_cmake/xbuild/modules/module.pcm
 fi
 if test \"$CONFIGURATION\" = \"Release\"; then :
   cd /Users/philipwenkel/Github/Modules_example_cmake/xbuild
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -std=c++2a -stdlib=libc++ -fmodules -c /Users/philipwenkel/Github/Modules_example_cmake/modules/helloworld.cpp -Xclang -emit-module-interface -o /Users/philipwenkel/Github/Modules_example_cmake/xbuild/modules/helloworld.pcm
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -std=c++2a -stdlib=libc++ -fmodules -c /Users/philipwenkel/Github/Modules_example_cmake/modules/module.cpp -Xclang -emit-module-interface -o /Users/philipwenkel/Github/Modules_example_cmake/xbuild/modules/module.pcm
 fi
 if test \"$CONFIGURATION\" = \"Kuk\"; then :
   cd /Users/philipwenkel/Github/Modules_example_cmake/xbuild
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -std=c++2a -stdlib=libc++ -fmodules -c /Users/philipwenkel/Github/Modules_example_cmake/modules/helloworld.cpp -Xclang -emit-module-interface -o /Users/philipwenkel/Github/Modules_example_cmake/xbuild/modules/helloworld.pcm
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -std=c++2a -stdlib=libc++ -fmodules -c /Users/philipwenkel/Github/Modules_example_cmake/modules/module.cpp -Xclang -emit-module-interface -o /Users/philipwenkel/Github/Modules_example_cmake/xbuild/modules/module.pcm
 fi
 ";
 			showEnvVarsInLog = 0;
 		};
-		9B50530E35CC49C82C2FACCF = {
+		DEC22BA7F3972AB3C67E739D = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -490,58 +397,56 @@ exit 0";
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CA0827B5FA564D5481541BCE /* Sources */ = {
+		94F7F42510BA4E3E8CDD0A21 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				134B1B7D66CC48B08418C260 /* /Users/philipwenkel/Github/Modules_example_cmake/main.cpp */,
-				3F5FA0C786AF494DA4197B34 /* /Users/philipwenkel/Github/Modules_example_cmake/modules/helloworld.cpp */,
-				994E428CFD6C4261BD59BCBA /* /Users/philipwenkel/Github/Modules_example_cmake/modules/speech.cpp */,
+				A8E21544E1F0452DA1C4E41C /* /Users/philipwenkel/Github/Modules_example_cmake/main.cpp */,
+				1EBDF25474C74919988F8C13 /* /Users/philipwenkel/Github/Modules_example_cmake/module.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0A42A2AC3CCB4C569CB6D693 /* PBXTargetDependency */ = {
+		1B1FE190B7854E0398371D82 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7F3AA283D08D4DBBA2477B8A /* ZERO_CHECK */;
-			targetProxy = 54683E87FD8946AEB65F67BB /* PBXContainerItemProxy */;
+			target = 18024C6880D04D23B1381134 /* module.pcm */;
+			targetProxy = 21D5825B8F114633AEFC05E9 /* PBXContainerItemProxy */;
 		};
-		0DC024FDFE6844DE82366BD7 /* PBXTargetDependency */ = {
+		55FCFEF57806492182FB1AC6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7F3AA283D08D4DBBA2477B8A /* ZERO_CHECK */;
-			targetProxy = A7603A1452764D7498CE1663 /* PBXContainerItemProxy */;
+			target = C77393914A884C4F9A6BCECD /* main */;
+			targetProxy = 012B82986C57436C81C3BFD3 /* PBXContainerItemProxy */;
 		};
-		42968FA493DA4081BFD16AAB /* PBXTargetDependency */ = {
+		66B22793DF274970ADC10693 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4051EF7F55CA4C54919984DA /* main */;
-			targetProxy = 42F8F5B962B0459EB614AD97 /* PBXContainerItemProxy */;
+			target = 56E9C806B31E40C7BF671E26 /* ZERO_CHECK */;
+			targetProxy = 9CE8F4995D1F466380444CE9 /* PBXContainerItemProxy */;
 		};
-		75DF93E17C204E158AD6D51F /* PBXTargetDependency */ = {
+		8EF7902813CC47ACB1DF4BCD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C09CF767E95A4E409476FD13 /* helloworld.pcm */;
-			targetProxy = B27FA78D1692448E8ADEAC1C /* PBXContainerItemProxy */;
+			target = 56E9C806B31E40C7BF671E26 /* ZERO_CHECK */;
+			targetProxy = 5824F9559F8749A68ADA4656 /* PBXContainerItemProxy */;
 		};
-		88A0826490BF4091BFE9C851 /* PBXTargetDependency */ = {
+		D90FBDFE7D514200853A03FF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7F3AA283D08D4DBBA2477B8A /* ZERO_CHECK */;
-			targetProxy = 95D7467D73DE4A9A9A1971A1 /* PBXContainerItemProxy */;
-		};
-		B88C5C1969ED45A8A00937EE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 63635EA39DC0475486196472 /* speech.pcm */;
-			targetProxy = 74C85EE2A0BF42B8BA68C4EC /* PBXContainerItemProxy */;
-		};
-		E4E46152D2194F5EA8E520A5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7F3AA283D08D4DBBA2477B8A /* ZERO_CHECK */;
-			targetProxy = E2FA50878E754A308EA06589 /* PBXContainerItemProxy */;
+			target = 56E9C806B31E40C7BF671E26 /* ZERO_CHECK */;
+			targetProxy = 4CA179C4D0A24AE197CD2D93 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		092E6C799D484F13B7A35F4C /* Release */ = {
+		0FC2230651054FBCB24FE2EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = /Users/philipwenkel/Github/Modules_example_cmake/xbuild/build;
+			};
+			name = Debug;
+		};
+		3571E542EEFA458F93B150DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
@@ -555,32 +460,7 @@ exit 0";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = ("");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = helloworld.pcm;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/philipwenkel/Github/Modules_example_cmake/xbuild;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		0D1B63B6400D45F381D3F277 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = "   -fmodules '-stdlib=libc++' -fbuiltin-module-map -fimplicit-module-maps '-fprebuilt-module-path=/Users/philipwenkel/Github/Modules_example_cmake/xbuild/modules' '-std=c++2a' ";
-				OTHER_LDFLAGS = ("-L/opt/homebrew/opt/openssl@1.1/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = main;
+				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/philipwenkel/Github/Modules_example_cmake/xbuild;
 				USE_HEADERMAP = NO;
@@ -588,7 +468,7 @@ exit 0";
 			};
 			name = Debug;
 		};
-		19BCE68677B54C61B9498230 /* Kuk */ = {
+		3CF4F0FC2A3C4CECA282AEB1 /* Kuk */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
@@ -602,7 +482,7 @@ exit 0";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = "-fmodules '-stdlib=libc++' -fbuiltin-module-map -fimplicit-module-maps '-fprebuilt-module-path=/Users/philipwenkel/Github/Modules_example_cmake/xbuild/modules' '-std=c++2a' ";
+				OTHER_CPLUSPLUSFLAGS = "'-stdlib=libc++' '-std=c++2a' -fmodules -fbuiltin-module-map -fimplicit-module-maps '-fprebuilt-module-path=/Users/philipwenkel/Github/Modules_example_cmake/xbuild/modules' -emit-module-interface -fimplicit-modules '-std=c++2a' ";
 				OTHER_LDFLAGS = ("-L/opt/homebrew/opt/openssl@1.1/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names");
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = main;
@@ -613,161 +493,7 @@ exit 0";
 			};
 			name = Kuk;
 		};
-		1B139129F92C47329353330B /* Kuk */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = helloworld.pcm;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/philipwenkel/Github/Modules_example_cmake/xbuild;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Kuk;
-		};
-		2759396ACCD5427CB90C1584 /* Kuk */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/philipwenkel/Github/Modules_example_cmake/xbuild;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Kuk;
-		};
-		2A643AD89EDD439CBD876218 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/philipwenkel/Github/Modules_example_cmake/xbuild;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		4760BCC2DCE0423A824C8EA9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = helloworld.pcm;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/philipwenkel/Github/Modules_example_cmake/xbuild;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		53B72ABF60C246D880A38311 /* Kuk */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = speech.pcm;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/philipwenkel/Github/Modules_example_cmake/xbuild;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Kuk;
-		};
-		6DFFE6907EF046DE91EB7FB1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/philipwenkel/Github/Modules_example_cmake/xbuild;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		7BB89FF4674B4F6DB6130774 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/philipwenkel/Github/Modules_example_cmake/xbuild;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		7C75C98B5DEF420A84A5F8FF /* Kuk */ = {
+		62C327262868448EBEAC833D /* Kuk */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
@@ -789,7 +515,7 @@ exit 0";
 			};
 			name = Kuk;
 		};
-		823DA889CD02480997A63A4C /* Release */ = {
+		7375F7061AC04AC1A2574B70 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
@@ -803,7 +529,7 @@ exit 0";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fmodules '-stdlib=libc++' -fbuiltin-module-map -fimplicit-module-maps '-fprebuilt-module-path=/Users/philipwenkel/Github/Modules_example_cmake/xbuild/modules' '-std=c++2a' ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-stdlib=libc++' '-std=c++2a' -fmodules -fbuiltin-module-map -fimplicit-module-maps '-fprebuilt-module-path=/Users/philipwenkel/Github/Modules_example_cmake/xbuild/modules' -emit-module-interface -fimplicit-modules '-std=c++2a' ";
 				OTHER_LDFLAGS = ("-L/opt/homebrew/opt/openssl@1.1/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names");
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = main;
@@ -814,7 +540,7 @@ exit 0";
 			};
 			name = Release;
 		};
-		A67AFBC3E438408FAF4293D1 /* Debug */ = {
+		8A7CB0D50674409AA1D41CE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
@@ -828,7 +554,7 @@ exit 0";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = ("");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = speech.pcm;
+				PRODUCT_NAME = module.pcm;
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/philipwenkel/Github/Modules_example_cmake/xbuild;
 				USE_HEADERMAP = NO;
@@ -836,16 +562,29 @@ exit 0";
 			};
 			name = Debug;
 		};
-		A88D1E5CFE7D4BD299E94B58 /* Debug */ = {
+		8E7C7CD226EE42E28CAB35CF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
-				SYMROOT = /Users/philipwenkel/Github/Modules_example_cmake/xbuild/build;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = module.pcm;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/philipwenkel/Github/Modules_example_cmake/xbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Debug;
+			name = Release;
 		};
-		BE51DA00BD1641B99289008E /* Kuk */ = {
+		94FBCE58A33C44509434E7A6 /* Kuk */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
@@ -854,16 +593,7 @@ exit 0";
 			};
 			name = Kuk;
 		};
-		C7CB76A24DD141FE844C626C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
-				SYMROOT = /Users/philipwenkel/Github/Modules_example_cmake/xbuild/build;
-			};
-			name = Release;
-		};
-		DC0701C82E9545B4BF834B4C /* Release */ = {
+		972CC1F325D94F098EB54D2D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
@@ -877,7 +607,7 @@ exit 0";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = ("");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = speech.pcm;
+				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/philipwenkel/Github/Modules_example_cmake/xbuild;
 				USE_HEADERMAP = NO;
@@ -885,7 +615,7 @@ exit 0";
 			};
 			name = Release;
 		};
-		E1D2070823494BBBA9BA7281 /* Debug */ = {
+		9E041CDE5BD043B29408C34A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
@@ -907,70 +637,160 @@ exit 0";
 			};
 			name = Debug;
 		};
+		AE0E63202EE34E75820F8DD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/philipwenkel/Github/Modules_example_cmake/xbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		BEC306E0419448DB9F160AB0 /* Kuk */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = module.pcm;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/philipwenkel/Github/Modules_example_cmake/xbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Kuk;
+		};
+		DDAEBCF51DF14C1A9F080537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-stdlib=libc++' '-std=c++2a' -fmodules -fbuiltin-module-map -fimplicit-module-maps '-fprebuilt-module-path=/Users/philipwenkel/Github/Modules_example_cmake/xbuild/modules' -emit-module-interface -fimplicit-modules '-std=c++2a' ";
+				OTHER_LDFLAGS = ("-L/opt/homebrew/opt/openssl@1.1/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/philipwenkel/Github/Modules_example_cmake/xbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F7C974096DF14DA88DB8670A /* Kuk */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/philipwenkel/Github/Modules_example_cmake/xbuild;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Kuk;
+		};
+		F8BE74F0858D4007917720C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = /Users/philipwenkel/Github/Modules_example_cmake/xbuild/build;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0A708A69902644209CF3721F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		18AB2C422DDF49379C24130E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E1D2070823494BBBA9BA7281 /* Debug */,
-				6DFFE6907EF046DE91EB7FB1 /* Release */,
-				2759396ACCD5427CB90C1584 /* Kuk */,
+				9E041CDE5BD043B29408C34A /* Debug */,
+				972CC1F325D94F098EB54D2D /* Release */,
+				F7C974096DF14DA88DB8670A /* Kuk */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		74FCFE9BB0BC4DA49ABD3900 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		56340807051E4E33908C89F1 /* Build configuration list for PBXProject "main" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A643AD89EDD439CBD876218 /* Debug */,
-				7BB89FF4674B4F6DB6130774 /* Release */,
-				7C75C98B5DEF420A84A5F8FF /* Kuk */,
+				0FC2230651054FBCB24FE2EF /* Debug */,
+				F8BE74F0858D4007917720C3 /* Release */,
+				94FBCE58A33C44509434E7A6 /* Kuk */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		8C04E4FC92544C1F84F89707 /* Build configuration list for PBXNativeTarget "main" */ = {
+		6EB18BF3A25D44019BF7E77F /* Build configuration list for PBXNativeTarget "main" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0D1B63B6400D45F381D3F277 /* Debug */,
-				823DA889CD02480997A63A4C /* Release */,
-				19BCE68677B54C61B9498230 /* Kuk */,
+				DDAEBCF51DF14C1A9F080537 /* Debug */,
+				7375F7061AC04AC1A2574B70 /* Release */,
+				3CF4F0FC2A3C4CECA282AEB1 /* Kuk */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		953151B758F14498B0EB4901 /* Build configuration list for PBXAggregateTarget "helloworld.pcm" */ = {
+		E856FEEDBF8F41D390A222C6 /* Build configuration list for PBXAggregateTarget "module.pcm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4760BCC2DCE0423A824C8EA9 /* Debug */,
-				092E6C799D484F13B7A35F4C /* Release */,
-				1B139129F92C47329353330B /* Kuk */,
+				8A7CB0D50674409AA1D41CE8 /* Debug */,
+				8E7C7CD226EE42E28CAB35CF /* Release */,
+				BEC306E0419448DB9F160AB0 /* Kuk */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		BEFDF9067DF74A958ED2CA24 /* Build configuration list for PBXProject "main" */ = {
+		F5B96F6ED26F4CA1B623A199 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A88D1E5CFE7D4BD299E94B58 /* Debug */,
-				C7CB76A24DD141FE844C626C /* Release */,
-				BE51DA00BD1641B99289008E /* Kuk */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		FC43489A69C54E64ABD97B4E /* Build configuration list for PBXAggregateTarget "speech.pcm" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A67AFBC3E438408FAF4293D1 /* Debug */,
-				DC0701C82E9545B4BF834B4C /* Release */,
-				53B72ABF60C246D880A38311 /* Kuk */,
+				3571E542EEFA458F93B150DA /* Debug */,
+				AE0E63202EE34E75820F8DD5 /* Release */,
+				62C327262868448EBEAC833D /* Kuk */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 971F48B899DD4AFE8E8931D2 /* Project object */;
+	rootObject = DED1B58FB6764E08B9E35FB5 /* Project object */;
 }
