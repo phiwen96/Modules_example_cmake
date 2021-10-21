@@ -7,6 +7,7 @@ import ph;
 int main()
 {
     std::cout << "Hello, World!\n";
+	hej();
 }
 
 
