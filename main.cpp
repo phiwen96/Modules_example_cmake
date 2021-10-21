@@ -1,13 +1,17 @@
 import <iostream>;
+import <vector>;
 
 //import ph;
 //import yo;
-import ph;
+// import ph;
 
 int main()
 {
     std::cout << "Hello, World!\n";
-	hej();
+	
+	auto vec = std::vector <int> {1, 2, 3};
+	// assert (len (vec) == 3);
+	// assert (len ({1, 2, 3}) == 3);
 }
 
 
