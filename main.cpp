@@ -6,7 +6,7 @@ import <vector>;
 //import yo;
 // import ph;
 // import A;
-import B;
+// import B;
 // import C;
 
 int main()
