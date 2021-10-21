@@ -1,3 +1,0 @@
-# Hashes of file build rules.
-de78fe7cda61d5d0a041343ed6b53044 CMakeFiles/helloworld.pcm
-72978c3b636167446e59ad42f5322be9 CMakeFiles/speech.pcm

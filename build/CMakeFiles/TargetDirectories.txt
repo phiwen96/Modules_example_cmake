@@ -1,5 +1,0 @@
-/home/philip/Documents/c++/Modules_example_cmake/build/CMakeFiles/rebuild_cache.dir
-/home/philip/Documents/c++/Modules_example_cmake/build/CMakeFiles/edit_cache.dir
-/home/philip/Documents/c++/Modules_example_cmake/build/CMakeFiles/speech.pcm.dir
-/home/philip/Documents/c++/Modules_example_cmake/build/CMakeFiles/helloworld.pcm.dir
-/home/philip/Documents/c++/Modules_example_cmake/build/CMakeFiles/main.dir
