@@ -3,5 +3,5 @@ export module C;
 import <string>;
 
 
-import B;
-import A;
+// import B;
+// import A;
